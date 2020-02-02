@@ -3,7 +3,7 @@ const path = require('path');
 
 if (__dirname.split(/\\|\//g).pop() !== '~') {
   throw new Error(`This package must be installed with an alias of "~". Try installing this as:
-npm install ~@kolodny/squigly --save-dev
+npm install '~@https://github.com/kolodny/squigly#42783ea5' --save-dev
   Don't forget to remove the non aliased squigly from the package.json!`);
 }
 
